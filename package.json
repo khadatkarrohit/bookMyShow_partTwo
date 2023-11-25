@@ -4,7 +4,9 @@
   "description": "Bookmyshow is a ticketing platform where you can book tickets for a movie show.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/khadatkarrohit/bookMyShow_partTwo/issues"
   },
-  "homepage": "https://github.com/khadatkarrohit/bookMyShow_partTwo#readme"
+  "homepage": "https://github.com/khadatkarrohit/bookMyShow_partTwo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "mysql2": "^3.3.2",
+    "sequelize": "^6.31.1",
+    "nodemon": "^3.0.1"
+  }
 }
